@@ -1,6 +1,7 @@
 'use client'
 
 import { useState, useEffect } from 'react'
+import Image from 'next/image'
 import Link from 'next/link'
 
 const NAV_LINKS = [
@@ -22,21 +23,22 @@ export function Header() {
 
   return (
     <header
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        scrolled
-          ? 'bg-brand-espresso/95 backdrop-blur-md'
-          : 'bg-transparent'
-      }`}
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${scrolled
+        ? 'bg-brand-espresso/95 backdrop-blur-md'
+        : 'bg-transparent'
+        }`}
     >
       <div className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
         {/* Logo */}
-        <Link href="/" className="flex flex-col leading-none">
-          <span className="font-display text-xl font-semibold tracking-display text-brand-cream">
-            CREMA & CO
-          </span>
-          <span className="font-body text-[9px] tracking-widest uppercase text-brand-gold -mt-0.5">
-            CAFÉ
-          </span>
+        <Link href="/">
+          <Image
+            src="/logo.png"
+            alt="Crema & Co. Café"
+            width={320}
+            height={108}
+            style={{ height: '120px', width: 'auto' }}
+            priority
+          />
         </Link>
 
         {/* Desktop nav */}
@@ -59,19 +61,16 @@ export function Header() {
           aria-label={menuOpen ? 'Fechar menu' : 'Abrir menu'}
         >
           <span
-            className={`block w-5 h-px bg-brand-cream transition-all duration-200 ${
-              menuOpen ? 'rotate-45 translate-y-[7px]' : ''
-            }`}
+            className={`block w-5 h-px bg-brand-cream transition-all duration-200 ${menuOpen ? 'rotate-45 translate-y-[7px]' : ''
+              }`}
           />
           <span
-            className={`block w-5 h-px bg-brand-cream transition-all duration-200 ${
-              menuOpen ? 'opacity-0' : ''
-            }`}
+            className={`block w-5 h-px bg-brand-cream transition-all duration-200 ${menuOpen ? 'opacity-0' : ''
+              }`}
           />
           <span
-            className={`block w-5 h-px bg-brand-cream transition-all duration-200 ${
-              menuOpen ? '-rotate-45 -translate-y-[7px]' : ''
-            }`}
+            className={`block w-5 h-px bg-brand-cream transition-all duration-200 ${menuOpen ? '-rotate-45 -translate-y-[7px]' : ''
+              }`}
           />
         </button>
       </div>

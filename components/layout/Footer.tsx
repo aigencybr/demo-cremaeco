@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import Link from 'next/link'
 
 export function Footer() {
@@ -5,13 +6,14 @@ export function Footer() {
     <footer className="bg-brand-espresso py-12 px-6">
       <div className="max-w-4xl mx-auto flex flex-col items-center gap-6 text-center">
         {/* Logo */}
-        <div className="flex flex-col leading-none items-center">
-          <span className="font-display text-2xl font-semibold tracking-display text-brand-cream">
-            CREMA & CO
-          </span>
-          <span className="font-body text-[9px] tracking-widest uppercase text-brand-gold -mt-0.5">
-            CAFÉ
-          </span>
+        <div>
+          <Image
+            src="/logo.png"
+            alt="Crema & Co. Café"
+            width={480}
+            height={192}
+            style={{ height: '210px', width: 'auto' }}
+          />
         </div>
 
         {/* Separator */}

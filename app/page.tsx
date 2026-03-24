@@ -11,8 +11,8 @@ export default function HomePage() {
   return (
     <main>
       <Hero />
-      <About />
       <MenuPreview items={highlights} />
+      <About />
       <Hours />
       <Location />
     </main>
