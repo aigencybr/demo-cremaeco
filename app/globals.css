@@ -1,26 +1,91 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@theme {
+  /* Brand colors */
+  --color-brand-espresso: #1A120A;
+  --color-brand-mahogany: #3D2010;
+  --color-brand-copper: #7A4A1E;
+  --color-brand-gold: #C9A96E;
+  --color-brand-cream: #F5ECD7;
+  --color-brand-linen: #EDE8DC;
+  --color-brand-stone: #B8B0A4;
+  --color-brand-white: #FFFFFF;
+
+  /* Typography */
+  --font-display: var(--font-cormorant), Georgia, serif;
+  --font-body: var(--font-montserrat), system-ui, sans-serif;
+
+  /* Letter spacing */
+  --tracking-widest: 0.25em;
+  --tracking-display: 0.08em;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+  body {
+    @apply bg-white text-brand-espresso font-body antialiased;
+  }
+
+  .gold-rule::after {
+    content: '';
+    display: block;
+    width: 40px;
+    height: 1px;
+    background-color: var(--color-brand-gold);
+    margin: 12px auto 0;
+  }
+
+  .gold-rule-left::after {
+    content: '';
+    display: block;
+    width: 40px;
+    height: 1px;
+    background-color: var(--color-brand-gold);
+    margin: 12px 0 0;
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+@layer components {
+  .btn-primary {
+    @apply inline-flex items-center gap-2 px-6 py-3
+           bg-brand-espresso text-brand-cream
+           font-body font-medium tracking-widest text-xs uppercase
+           transition-opacity hover:opacity-80
+           focus-visible:ring-2 focus-visible:ring-brand-gold focus-visible:outline-none;
+  }
+
+  .btn-primary-light {
+    @apply inline-flex items-center gap-2 px-6 py-3
+           bg-brand-cream text-brand-espresso
+           font-body font-medium tracking-widest text-xs uppercase
+           transition-opacity hover:opacity-80
+           focus-visible:ring-2 focus-visible:ring-brand-gold focus-visible:outline-none;
+  }
+
+  .btn-outline {
+    @apply inline-flex items-center gap-2 px-6 py-3
+           border border-brand-espresso text-brand-espresso
+           font-body font-medium tracking-widest text-xs uppercase
+           transition-colors hover:bg-brand-espresso hover:text-brand-cream
+           focus-visible:ring-2 focus-visible:ring-brand-gold focus-visible:outline-none;
+  }
+
+  .btn-outline-light {
+    @apply inline-flex items-center gap-2 px-6 py-3
+           border border-brand-cream text-brand-cream
+           font-body font-medium tracking-widest text-xs uppercase
+           transition-colors hover:bg-brand-cream hover:text-brand-espresso
+           focus-visible:ring-2 focus-visible:ring-brand-gold focus-visible:outline-none;
+  }
+
+  .section-title {
+    @apply font-display text-3xl md:text-4xl text-brand-espresso text-center;
+  }
+
+  .eyebrow {
+    @apply font-body text-xs tracking-widest uppercase text-brand-copper block mb-3;
+  }
 }

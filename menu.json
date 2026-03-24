@@ -1,0 +1,392 @@
+[
+  {
+    "id": "espresso",
+    "name": "Espresso",
+    "description": "Espresso 30ml",
+    "price": 7.00,
+    "category": "quente",
+    "image_url": null,
+    "highlight": false,
+    "position": 10
+  },
+  {
+    "id": "espresso-duplo",
+    "name": "Espresso Duplo",
+    "description": "Espresso 60ml",
+    "price": 11.00,
+    "category": "quente",
+    "image_url": null,
+    "highlight": false,
+    "position": 20
+  },
+  {
+    "id": "macchiato",
+    "name": "Macchiato",
+    "description": "Espresso com \"manchinha\" de leite vaporizado",
+    "price": 9.00,
+    "category": "quente",
+    "image_url": null,
+    "highlight": false,
+    "position": 30
+  },
+  {
+    "id": "macchiato-duplo",
+    "name": "Macchiato Duplo",
+    "description": "Espresso duplo com \"manchinha\" de leite vaporizado",
+    "price": 13.00,
+    "category": "quente",
+    "image_url": null,
+    "highlight": false,
+    "position": 40
+  },
+  {
+    "id": "mocha",
+    "name": "Mocha",
+    "description": "Espresso com chocolate ao leite e leite vaporizado",
+    "price": 15.00,
+    "category": "quente",
+    "image_url": null,
+    "highlight": false,
+    "position": 50
+  },
+  {
+    "id": "latte",
+    "name": "Latte",
+    "description": "Espresso com leite vaporizado",
+    "price": 12.00,
+    "category": "quente",
+    "image_url": null,
+    "highlight": false,
+    "position": 60
+  },
+  {
+    "id": "latte-vanilla",
+    "name": "Latte Vanilla",
+    "description": "Espresso com leite vaporizado e uma dose de xarope de baunilha",
+    "price": 14.00,
+    "category": "quente",
+    "image_url": null,
+    "highlight": true,
+    "position": 70
+  },
+  {
+    "id": "cappuccino",
+    "name": "Cappuccino",
+    "description": "Espresso com leite vaporizado, cacau em pó 50% e canela",
+    "price": 14.00,
+    "category": "quente",
+    "image_url": null,
+    "highlight": false,
+    "position": 80
+  },
+  {
+    "id": "chocolate-quente",
+    "name": "Chocolate Quente",
+    "description": "Leite vaporizado com cacau em pó 50%",
+    "price": 15.00,
+    "category": "quente",
+    "image_url": null,
+    "highlight": false,
+    "position": 90
+  },
+  {
+    "id": "cha",
+    "name": "Chá",
+    "description": "Marca Twinings. Consultar sabores disponíveis.",
+    "price": 11.00,
+    "category": "quente",
+    "image_url": null,
+    "highlight": false,
+    "position": 100
+  },
+  {
+    "id": "coado-v60",
+    "name": "Coado V60",
+    "description": "Café coado com extração controlada que realça aromas e sabores, resultando em uma bebida limpa e equilibrada. 200ml — Chocolate | Frutado",
+    "price": 12.00,
+    "category": "quente",
+    "image_url": null,
+    "highlight": false,
+    "position": 110
+  },
+  {
+    "id": "iced-crema",
+    "name": "Iced Crema",
+    "description": "Nossa assinatura: espresso, leite, gelo, xarope de vanilla e nossa famosa calda natural de frutas vermelhas. 400ml",
+    "price": 18.00,
+    "category": "gelado",
+    "image_url": null,
+    "highlight": true,
+    "position": 10
+  },
+  {
+    "id": "iced-latte",
+    "name": "Iced Latte",
+    "description": "Espresso com leite e gelo. 400ml",
+    "price": 15.00,
+    "category": "gelado",
+    "image_url": null,
+    "highlight": true,
+    "position": 20
+  },
+  {
+    "id": "iced-latte-vanilla",
+    "name": "Iced Latte Vanilla",
+    "description": "Espresso com leite, xarope 1883 de baunilha e gelo. 400ml",
+    "price": 16.00,
+    "category": "gelado",
+    "image_url": null,
+    "highlight": true,
+    "position": 30
+  },
+  {
+    "id": "iced-latte-caramelo",
+    "name": "Iced Latte Caramelo",
+    "description": "Espresso com leite, xarope 1883 de caramelo e gelo. 400ml",
+    "price": 16.00,
+    "category": "gelado",
+    "image_url": null,
+    "highlight": true,
+    "position": 40
+  },
+  {
+    "id": "orange-coffee",
+    "name": "Orange Coffee",
+    "description": "Espresso com suco integral de laranja, rodela de limão e gelo. 400ml",
+    "price": 15.00,
+    "category": "gelado",
+    "image_url": null,
+    "highlight": true,
+    "position": 50
+  },
+  {
+    "id": "agua",
+    "name": "Água",
+    "description": "Com ou sem gás",
+    "price": 5.00,
+    "category": "bebida",
+    "image_url": null,
+    "highlight": false,
+    "position": 10
+  },
+  {
+    "id": "suco-mitto",
+    "name": "Suco Mitto 300ml",
+    "description": "Suco 100% integral sem adição de açúcar e conservante. Consultar sabores.",
+    "price": 15.00,
+    "category": "bebida",
+    "image_url": null,
+    "highlight": false,
+    "position": 20
+  },
+  {
+    "id": "refrigerante",
+    "name": "Refrigerante",
+    "description": "Refrigerante em lata. Consulte opções.",
+    "price": 7.50,
+    "category": "bebida",
+    "image_url": null,
+    "highlight": false,
+    "position": 30
+  },
+  {
+    "id": "quiche-artesanal",
+    "name": "Quiche Artesanal",
+    "description": "Quiche artesanal com uma massa deliciosa. Sabores: alho poró, Lorraine (bacon), 4 queijos e caprese. Consulte disponibilidade.",
+    "price": 18.00,
+    "category": "salgado",
+    "image_url": null,
+    "highlight": false,
+    "position": 10
+  },
+  {
+    "id": "tostex-misto",
+    "name": "Tostex Misto",
+    "description": "Duas fatias do nosso delicioso pão brioche com recheio de presunto e queijo. Servido prensado e quente.",
+    "price": 16.00,
+    "category": "salgado",
+    "image_url": null,
+    "highlight": false,
+    "position": 20
+  },
+  {
+    "id": "tostex-queijo",
+    "name": "Tostex Queijo",
+    "description": "Duas fatias do nosso delicioso pão de brioche com recheio de mussarela. Servido prensado e quente.",
+    "price": 17.00,
+    "category": "salgado",
+    "image_url": null,
+    "highlight": false,
+    "position": 30
+  },
+  {
+    "id": "tostex-frango",
+    "name": "Tostex Frango",
+    "description": "Duas fatias do nosso delicioso pão de brioche com recheio de frango cremoso com catupiry. Servido prensado e quente.",
+    "price": 20.00,
+    "category": "salgado",
+    "image_url": null,
+    "highlight": false,
+    "position": 40
+  },
+  {
+    "id": "tostex-carne-seca",
+    "name": "Tostex Carne Seca Berna",
+    "description": "Duas fatias do nosso delicioso pão de brioche com recheio de carne seca cremosa da marca Berna com catupiry e mussarela.",
+    "price": 25.00,
+    "category": "salgado",
+    "image_url": null,
+    "highlight": true,
+    "position": 50
+  },
+  {
+    "id": "pao-de-queijo",
+    "name": "Pão de Queijo — 6 unidades",
+    "description": "",
+    "price": 10.00,
+    "category": "salgado",
+    "image_url": null,
+    "highlight": false,
+    "position": 60
+  },
+  {
+    "id": "panini-pao-queijo",
+    "name": "Panini Pão de Queijo",
+    "description": "Queijo ou Bauru",
+    "price": 13.00,
+    "category": "salgado",
+    "image_url": null,
+    "highlight": false,
+    "position": 70
+  },
+  {
+    "id": "croissant-sem-recheio",
+    "name": "Croissant Sem Recheio",
+    "description": "Opção de acompanhamento de manteiga ou requeijão.",
+    "price": 15.00,
+    "category": "salgado",
+    "image_url": null,
+    "highlight": false,
+    "position": 80
+  },
+  {
+    "id": "croissant-ovos-cremosos",
+    "name": "Croissant Recheado — Ovos Cremosos",
+    "description": "Croissant amanteigado, dourado por fora e macio por dentro, recheado com ovos cremosos preparados na medida certa.",
+    "price": 28.00,
+    "category": "salgado",
+    "image_url": null,
+    "highlight": true,
+    "position": 90
+  },
+  {
+    "id": "croissant-prosciutto",
+    "name": "Croissant Recheado — Prosciutto Artesanal",
+    "description": "Presunto fresco artesanal, tomate cereja confitado, requeijão com stracciatella e queijo de búfala.",
+    "price": 31.00,
+    "category": "salgado",
+    "image_url": null,
+    "highlight": true,
+    "position": 100
+  },
+  {
+    "id": "toast-chapa",
+    "name": "Toast na Chapa",
+    "description": "Uma fatia do nosso delicioso pão de fermentação natural tostado na chama com manteiga.",
+    "price": 12.00,
+    "category": "salgado",
+    "image_url": null,
+    "highlight": false,
+    "position": 110
+  },
+  {
+    "id": "toast-ovos-bacon",
+    "name": "Toast Ovos e Bacon Artesanal",
+    "description": "Uma fatia do nosso delicioso pão de fermentação natural com ovos cremosos e bacon artesanal.",
+    "price": 22.00,
+    "category": "salgado",
+    "image_url": null,
+    "highlight": false,
+    "position": 120
+  },
+  {
+    "id": "toast-caprese",
+    "name": "Toast Caprese",
+    "description": "Uma fatia do nosso delicioso pão de fermentação natural com molho pesto, tomate cereja confitado, queijo de búfala e manjericão.",
+    "price": 25.00,
+    "category": "salgado",
+    "image_url": null,
+    "highlight": true,
+    "position": 130
+  },
+  {
+    "id": "bolo-caseiro",
+    "name": "Bolo Caseiro",
+    "description": "Fatia de bolo com sabor de casa de vó. Consulte o sabor do dia.",
+    "price": 10.00,
+    "category": "doce",
+    "image_url": null,
+    "highlight": false,
+    "position": 10
+  },
+  {
+    "id": "bolo-especial",
+    "name": "Bolo Especial",
+    "description": "Bolo com recheio e confeitado. Consulte o sabor do dia.",
+    "price": 18.00,
+    "category": "doce",
+    "image_url": null,
+    "highlight": false,
+    "position": 20
+  },
+  {
+    "id": "bolo-chocolatissimo-belga",
+    "name": "Bolo Chocolatíssimo Belga",
+    "description": "Bolo de chocolate com massa dark e com um recheio generoso de brigadeiro feito com o verdadeiro chocolate belga Callebaut. Consulte disponibilidade.",
+    "price": 25.00,
+    "category": "doce",
+    "image_url": null,
+    "highlight": true,
+    "position": 30
+  },
+  {
+    "id": "mini-bolo-maca-nozes",
+    "name": "Mini Bolo de Maçã com Nozes",
+    "description": "Bolo que é a cara da Crema, com sabor irresistível.",
+    "price": 15.00,
+    "category": "doce",
+    "image_url": null,
+    "highlight": true,
+    "position": 40
+  },
+  {
+    "id": "cheesecake-frutas-vermelhas",
+    "name": "Cheesecake de Frutas Vermelhas",
+    "description": "A famosa cheesecake da Crema. Creme de queijo com uma deliciosa base e calda natural de frutas vermelhas.",
+    "price": 18.00,
+    "category": "doce",
+    "image_url": null,
+    "highlight": true,
+    "position": 50
+  },
+  {
+    "id": "brownie-tradicional",
+    "name": "Brownie Tradicional",
+    "description": "Brownie artesanal de chocolate intenso, com interior macio e úmido e casquinha delicadamente crocante por cima.",
+    "price": 10.00,
+    "category": "doce",
+    "image_url": null,
+    "highlight": false,
+    "position": 60
+  },
+  {
+    "id": "brownie-nozes",
+    "name": "Brownie Nozes",
+    "description": "Brownie artesanal de chocolate intenso, macio por dentro, com nozes que trazem crocância e equilibram o sabor.",
+    "price": 11.00,
+    "category": "doce",
+    "image_url": null,
+    "highlight": true,
+    "position": 70
+  }
+]

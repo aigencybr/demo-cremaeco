@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install clsx tailwind-merge)",
+      "WebSearch",
+      "WebFetch(domain:unsplash.com)"
+    ]
+  }
+}
