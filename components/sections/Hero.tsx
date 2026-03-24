@@ -1,11 +1,18 @@
+import Image from 'next/image'
 import Link from 'next/link'
 
 export function Hero() {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
-      {/* Background — placeholder escuro até ter foto real do Supabase Storage */}
-      {/* TODO: substituir por <ImageWithBlur fill priority src="/images/hero.jpg" alt="Ambiente Crema & Co." className="object-cover" /> */}
-      <div className="absolute inset-0 bg-brand-espresso" />
+      {/* Background */}
+      <Image
+        src="/IMG_7983.jpeg"
+        alt="Mesa com cappuccino e croissant na Crema & Co."
+        fill
+        priority
+        sizes="100vw"
+        className="object-cover object-center"
+      />
 
       {/* Overlay gradiente */}
       <div className="absolute inset-0 bg-gradient-to-b from-black/30 via-black/20 to-black/60" />
