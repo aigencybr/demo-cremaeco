@@ -2,8 +2,8 @@ import { Carousel } from '@/components/ui/Carousel'
 
 const ABOUT_SLIDES = [
   { src: '/photo.jpg', alt: 'Ambiente interno da Crema & Co. Café' },
-  { src: '/@naves_calebe-1.jpg', alt: 'Espaço da Crema & Co.' },
-  { src: '/@naves_calebe-10.jpg', alt: 'Detalhes do café Crema & Co.' },
+  { src: '/@naves.jpeg', alt: 'Espaço da Crema & Co.' },
+  { src: '/@naves_calebe-10.jpg.jpeg', alt: 'Detalhes do café Crema & Co.' },
   { src: '/@naves_calebe-13.jpg', alt: 'Grãos selecionados da Crema & Co.' },
   { src: '/@naves_calebe-2.jpg.jpeg', alt: 'Espaço aconchegante da Crema & Co.' },
   { src: '/Foto 2.jpg.jpeg', alt: 'Momentos na Crema & Co.' },
