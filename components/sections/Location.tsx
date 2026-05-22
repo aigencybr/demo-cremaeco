@@ -64,7 +64,7 @@ export function Location() {
               href="https://www.google.com/search?sca_esv=1683bac0e7c4926b&hl=en-BR&sxsrf=ANbL-n45Pt0w1fmA7WcLBr-bAfRmWQOCVQ:1779476786094&si=AL3DRZEsmMGCryMMFSHJ3StBhOdZ2-6yYkXd_doETEE1OR-qOW2glOc3k5ifGRFsl_Az3b2WsgFtxw3vFppkt4t2wKafQ9naVYFLHmigraXyVKE3WwAwJzjRurBfrCTUZdci4sln-7hfZJ5w-Qd0EG9s_1GLxkFWVg%3D%3D&q=Crema+%26+Co.+Caf%C3%A9+Reviews&sa=X&ved=2ahUKEwiunOLNy82UAxWDK7kGHQBNLRsQ0bkNegQIIhAF&biw=1912&bih=922&dpr=1#"
               target="_blank"
               rel="noopener noreferrer"
-              className="mt-1 inline-block self-start px-5 py-2 bg-brand-espresso text-brand-stone font-body font-medium text-xs tracking-widest uppercase hover:bg-brand-mahogany transition-colors"
+              className="mt-1 inline-block self-start px-5 py-2 bg-brand-espresso text-brand-stone font-body font-medium text-xs tracking-widest uppercase hover:bg-brand-mahogany transition-colors rounded-full"
             >
               Clique para avaliar
             </a>
