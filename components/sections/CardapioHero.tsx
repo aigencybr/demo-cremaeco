@@ -1,6 +1,6 @@
 export function CardapioHero() {
   return (
-    <section className="bg-brand-espresso py-24 md:py-32 px-6 text-center">
+    <section className="bg-brand-espresso pt-36 pb-24 md:pt-48 md:pb-32 px-6 text-center">
       <span className="font-body text-xs tracking-widest uppercase text-brand-gold block mb-3">
         O que preparamos para você
       </span>
@@ -14,7 +14,7 @@ export function CardapioHero() {
       <div className="w-10 h-px bg-brand-gold mx-auto mt-5 mb-6" />
 
       <p className="font-body font-light text-sm text-brand-stone">
-        Feito com cuidado, servido com afeto.
+        Café, aconchego e boas conversas
       </p>
     </section>
   )

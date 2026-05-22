@@ -6,8 +6,8 @@ export function About() {
       <div className="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
         {/* Text */}
         <div>
-          <span className="eyebrow">Nossa história</span>
-          <h2 className="font-display text-3xl md:text-4xl text-brand-espresso leading-tight mb-4">
+          <span className="font-[--font-lamoric] text-sm tracking-widest uppercase text-brand-copper block mb-3">Nossa história</span>
+          <h2 className="font-[--font-lamoric] font-light text-3xl md:text-4xl text-brand-espresso leading-tight mb-4">
             Mais que um café,
             <br />
             um espaço para você.

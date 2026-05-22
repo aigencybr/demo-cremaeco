@@ -12,7 +12,7 @@ export function Footer() {
             alt="Crema & Co. Café"
             width={480}
             height={192}
-            style={{ height: '210px', width: 'auto' }}
+            style={{ height: '280px', width: 'auto' }}
           />
         </div>
 

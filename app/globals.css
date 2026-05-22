@@ -1,5 +1,21 @@
 @import "tailwindcss";
 
+@font-face {
+  font-family: 'Avenir Black';
+  src: url('/avenir-black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Lamoric Rowen';
+  src: url('/Lamoric Rowen TTF.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 @theme {
   /* Brand colors */
   --color-brand-espresso: #1A120A;
@@ -14,6 +30,8 @@
   /* Typography */
   --font-display: var(--font-cormorant), Georgia, serif;
   --font-body: var(--font-montserrat), system-ui, sans-serif;
+  --font-black: 'Avenir Black', system-ui, sans-serif;
+  --font-lamoric: 'Lamoric Rowen', serif;
 
   /* Letter spacing */
   --tracking-widest: 0.25em;

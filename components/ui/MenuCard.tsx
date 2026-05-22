@@ -19,11 +19,11 @@ export function MenuCard({ item, variant = 'full' }: MenuCardProps) {
   return (
     <article
       aria-label={item.name}
-      className="group bg-white overflow-hidden"
+      className="group bg-white overflow-hidden rounded-xl"
     >
       {/* Image */}
       <div
-        className={`relative overflow-hidden bg-brand-linen ${
+        className={`relative overflow-hidden bg-brand-linen rounded-xl ${
           variant === 'compact' ? 'aspect-[4/3]' : 'aspect-square md:aspect-[4/3]'
         }`}
       >
@@ -43,22 +43,22 @@ export function MenuCard({ item, variant = 'full' }: MenuCardProps) {
           </div>
         )}
         {/* Category badge */}
-        <span className="absolute top-3 left-3 font-body text-xs tracking-widest uppercase text-brand-stone bg-white/90 px-2 py-1">
+        <span className="absolute top-3 left-3 font-body text-xs tracking-widest uppercase text-brand-stone bg-white/90 px-2 py-1 rounded-md">
           {CATEGORY_LABELS[item.category] ?? item.category}
         </span>
       </div>
 
       {/* Content */}
       <div className="p-4">
-        <h3 className="font-display text-lg md:text-xl text-brand-espresso mb-1">
+        <h3 className="font-display text-xl md:text-2xl font-bold text-brand-espresso mb-1">
           {item.name}
         </h3>
         {item.description && (
-          <p className="font-body text-sm font-light text-brand-stone line-clamp-2 mb-3">
+          <p className="font-body text-sm font-light text-brand-espresso/70 line-clamp-2 mb-3">
             {item.description}
           </p>
         )}
-        <p className="font-display text-xl text-brand-copper">
+        <p className="font-black text-lg text-brand-copper">
           {formatPrice(item.price)}
         </p>
       </div>

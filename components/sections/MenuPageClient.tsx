@@ -22,7 +22,13 @@ export function MenuPageClient({ initialItems }: MenuPageClientProps) {
   const showDrinkNote = activeCategory === 'todos' || DRINK_CATEGORIES.includes(activeCategory)
 
   return (
-    <section className="max-w-6xl mx-auto px-6 py-12">
+    <section className="relative overflow-hidden">
+      <div
+        aria-hidden
+        className="absolute inset-0 pointer-events-none"
+        style={{ backgroundImage: "url('/PATTERN.png')", backgroundRepeat: "repeat", backgroundSize: "320px auto", opacity: 0.18, mixBlendMode: "multiply" }}
+      />
+      <div className="relative max-w-6xl mx-auto px-6 py-12">
       <CategoryTabs active={activeCategory} onChange={setActiveCategory} />
 
       <div className="mt-px">
@@ -31,7 +37,7 @@ export function MenuPageClient({ initialItems }: MenuPageClientProps) {
             Nenhum item nesta categoria por enquanto.
           </p>
         ) : (
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-px bg-brand-linen mt-px">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-px mt-px">
             {filtered.map((item) => (
               <MenuCard key={item.id} item={item} variant="full" />
             ))}
@@ -44,6 +50,7 @@ export function MenuPageClient({ initialItems }: MenuPageClientProps) {
           Adicional de leite vegetal: R$ 2,00 (quentes) · R$ 4,00 (gelados)
         </p>
       )}
+      </div>
     </section>
   )
 }

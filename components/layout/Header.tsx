@@ -1,6 +1,6 @@
 'use client'
 
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 
@@ -12,37 +12,38 @@ const NAV_LINKS = [
 ]
 
 export function Header() {
-  const [scrolled, setScrolled] = useState(false)
   const [menuOpen, setMenuOpen] = useState(false)
-
-  useEffect(() => {
-    const handler = () => setScrolled(window.scrollY > 20)
-    window.addEventListener('scroll', handler, { passive: true })
-    return () => window.removeEventListener('scroll', handler)
-  }, [])
 
   return (
     <header
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${scrolled
-        ? 'bg-brand-espresso/95 backdrop-blur-md'
-        : 'bg-transparent'
-        }`}
+      className="fixed left-0 right-0 top-0 z-50 flex justify-center"
+      style={{ padding: '20px 24px 0', pointerEvents: 'none' }}
     >
-      <div className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
+      <div
+        className="header-pill flex w-full items-center justify-between gap-6"
+        style={{
+          maxWidth: '1200px',
+          padding: '14px 28px',
+          backdropFilter: 'blur(16px) saturate(180%)',
+          WebkitBackdropFilter: 'blur(16px) saturate(180%)',
+          pointerEvents: 'auto',
+        }}
+      >
         {/* Logo */}
-        <Link href="/">
+        <Link href="/" style={{ display: 'flex', alignItems: 'center', flexShrink: 0 }}>
           <Image
-            src="/logo.png"
+            src="/logo-2.png"
             alt="Crema & Co. Café"
-            width={320}
-            height={108}
-            style={{ height: '120px', width: 'auto' }}
+            height={72}
+            width={240}
+            style={{ width: 'auto', height: '44px' }}
+            className="md:!h-[64px]"
             priority
           />
         </Link>
 
         {/* Desktop nav */}
-        <nav className="hidden md:flex items-center gap-8">
+        <nav className="hidden flex-1 md:flex md:justify-center gap-8">
           {NAV_LINKS.map((link) => (
             <Link
               key={link.href}
@@ -61,23 +62,30 @@ export function Header() {
           aria-label={menuOpen ? 'Fechar menu' : 'Abrir menu'}
         >
           <span
-            className={`block w-5 h-px bg-brand-cream transition-all duration-200 ${menuOpen ? 'rotate-45 translate-y-[7px]' : ''
-              }`}
+            className={`block w-5 h-px bg-brand-cream transition-all duration-200 ${menuOpen ? 'rotate-45 translate-y-[7px]' : ''}`}
           />
           <span
-            className={`block w-5 h-px bg-brand-cream transition-all duration-200 ${menuOpen ? 'opacity-0' : ''
-              }`}
+            className={`block w-5 h-px bg-brand-cream transition-all duration-200 ${menuOpen ? 'opacity-0' : ''}`}
           />
           <span
-            className={`block w-5 h-px bg-brand-cream transition-all duration-200 ${menuOpen ? '-rotate-45 -translate-y-[7px]' : ''
-              }`}
+            className={`block w-5 h-px bg-brand-cream transition-all duration-200 ${menuOpen ? '-rotate-45 -translate-y-[7px]' : ''}`}
           />
         </button>
       </div>
 
       {/* Mobile drawer */}
       {menuOpen && (
-        <div className="md:hidden bg-brand-espresso border-t border-brand-mahogany">
+        <div
+          className="absolute top-full left-6 right-6 mt-2 md:hidden"
+          style={{
+            background: 'rgba(26, 18, 10, 0.92)',
+            backdropFilter: 'blur(16px)',
+            WebkitBackdropFilter: 'blur(16px)',
+            border: '1px solid rgba(201, 169, 110, 0.25)',
+            borderRadius: '16px',
+            pointerEvents: 'auto',
+          }}
+        >
           <nav className="flex flex-col px-6 py-4 gap-4">
             {NAV_LINKS.map((link) => (
               <Link
@@ -92,6 +100,14 @@ export function Header() {
           </nav>
         </div>
       )}
+
+      <style>{`
+        .header-pill {
+          background: rgba(26, 18, 10, 0.55);
+          border: 1px solid rgba(201, 169, 110, 0.25);
+          border-radius: 9999px;
+        }
+      `}</style>
     </header>
   )
 }

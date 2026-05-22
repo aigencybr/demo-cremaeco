@@ -1,18 +1,18 @@
-import Image from 'next/image'
-import Link from 'next/link'
-
 export function Hero() {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
-      {/* Background */}
-      <Image
-        src="/IMG_7983.jpeg"
-        alt="Mesa com cappuccino e croissant na Crema & Co."
-        fill
-        priority
-        sizes="100vw"
-        className="object-cover object-center"
+      {/* Video background */}
+      <video
+        src="/herovideo2.mp4"
+        autoPlay
+        muted
+        loop
+        playsInline
+        className="absolute inset-0 w-full h-full object-cover object-center"
       />
+
+      {/* Base black overlay */}
+      <div className="absolute inset-0 bg-black/30" />
 
       {/* Overlay gradiente */}
       <div className="absolute inset-0 bg-gradient-to-b from-black/30 via-black/20 to-black/60" />
@@ -31,7 +31,6 @@ export function Hero() {
           RESPIRAR COM CALMA.
         </h1>
 
-        {/* Linha dourada decorativa */}
         <div className="w-16 h-px bg-brand-gold mb-6" />
 
         <p className="font-body font-light text-sm md:text-base text-brand-cream/80 max-w-sm mb-8 leading-relaxed">
@@ -41,12 +40,12 @@ export function Hero() {
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 items-center">
-          <Link href="/cardapio" className="btn-primary-light">
+          <a href="/cardapio" className="btn-primary-light rounded-full">
             Ver Cardápio
-          </Link>
-          <Link href="#localizacao" className="btn-outline-light">
+          </a>
+          <a href="#localizacao" className="btn-outline-light rounded-full">
             Como Chegar
-          </Link>
+          </a>
         </div>
       </div>
     </section>

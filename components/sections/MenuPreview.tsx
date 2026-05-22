@@ -9,8 +9,14 @@ interface MenuPreviewProps {
 
 export function MenuPreview({ items }: MenuPreviewProps) {
   return (
-    <section className="bg-white py-20 px-6">
-      <div className="max-w-6xl mx-auto">
+    <section className="relative bg-white py-20 px-6 overflow-hidden">
+      {/* Subtle pattern overlay */}
+      <div
+        aria-hidden
+        className="absolute inset-0 pointer-events-none"
+        style={{ backgroundImage: "url('/PATTERN.png')", backgroundRepeat: "repeat", backgroundSize: "320px auto", opacity: 0.18, mixBlendMode: "multiply" }}
+      />
+      <div className="relative max-w-6xl mx-auto">
         <SectionTitle eyebrow="Cardápio" title="Nossos destaques" />
 
         <div className="mt-12">

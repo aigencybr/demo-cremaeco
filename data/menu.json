@@ -5,7 +5,7 @@
     "description": "Espresso 30ml",
     "price": 7.00,
     "category": "quente",
-    "image_url": "https://images.unsplash.com/photo-1559310391-aff67203586c?w=800&q=80",
+    "image_url": "/espresso2.png",
     "highlight": false,
     "position": 10
   },
@@ -115,7 +115,7 @@
     "description": "Nossa assinatura: espresso, leite, gelo, xarope de vanilla e nossa famosa calda natural de frutas vermelhas. 400ml",
     "price": 18.00,
     "category": "gelado",
-    "image_url": "https://images.unsplash.com/photo-1527156231393-7023794f363c?w=800&q=80",
+    "image_url": "/IMG_5505.png",
     "highlight": true,
     "position": 10
   },
@@ -125,9 +125,9 @@
     "description": "Espresso com leite e gelo. 400ml",
     "price": 15.00,
     "category": "gelado",
-    "image_url": "https://images.unsplash.com/photo-1461023058943-07fcbe16d735?w=800&q=80",
+    "image_url": "/IMG_5550.png",
     "highlight": true,
-    "position": 20
+    "position": 40
   },
   {
     "id": "iced-latte-vanilla",
@@ -135,8 +135,8 @@
     "description": "Espresso com leite, xarope 1883 de baunilha e gelo. 400ml",
     "price": 16.00,
     "category": "gelado",
-    "image_url": "https://images.unsplash.com/photo-1461023058943-07fcbe16d735?w=800&q=80",
-    "highlight": true,
+    "image_url": "/latte-vanilla.png",
+    "highlight": false,
     "position": 30
   },
   {
@@ -145,8 +145,8 @@
     "description": "Espresso com leite, xarope 1883 de caramelo e gelo. 400ml",
     "price": 16.00,
     "category": "gelado",
-    "image_url": "https://images.unsplash.com/photo-1527156231393-7023794f363c?w=800&q=80",
-    "highlight": true,
+    "image_url": "/IMG_5550.png",
+    "highlight": false,
     "position": 40
   },
   {
@@ -155,8 +155,8 @@
     "description": "Espresso com suco integral de laranja, rodela de limão e gelo. 400ml",
     "price": 15.00,
     "category": "gelado",
-    "image_url": "https://images.unsplash.com/photo-1600271886742-f049cd451bba?w=800&q=80",
-    "highlight": true,
+    "image_url": "/IMG_5557.png",
+    "highlight": false,
     "position": 50
   },
   {
@@ -165,7 +165,7 @@
     "description": "Com ou sem gás",
     "price": 5.00,
     "category": "bebida",
-    "image_url": "https://images.unsplash.com/photo-1705413085032-77fec96871cf?w=800&q=80",
+    "image_url": "/agua.png",
     "highlight": false,
     "position": 10
   },
@@ -225,7 +225,7 @@
     "description": "Duas fatias do nosso delicioso pão de brioche com recheio de frango cremoso com catupiry. Servido prensado e quente.",
     "price": 20.00,
     "category": "salgado",
-    "image_url": "https://images.unsplash.com/photo-1631707928780-153b053e09aa?w=800&q=80",
+    "image_url": "/IMG_5843.png",
     "highlight": false,
     "position": 40
   },
@@ -235,8 +235,8 @@
     "description": "Duas fatias do nosso delicioso pão de brioche com recheio de carne seca cremosa da marca Berna com catupiry e mussarela.",
     "price": 25.00,
     "category": "salgado",
-    "image_url": "https://images.unsplash.com/photo-1631707928780-153b053e09aa?w=800&q=80",
-    "highlight": true,
+    "image_url": "/IMG_6172.png",
+    "highlight": false,
     "position": 50
   },
   {
@@ -245,7 +245,7 @@
     "description": "",
     "price": 10.00,
     "category": "salgado",
-    "image_url": "https://images.unsplash.com/photo-1608855725042-e95ffd4ca487?w=800&q=80",
+    "image_url": "/8.png",
     "highlight": false,
     "position": 60
   },
@@ -255,8 +255,8 @@
     "description": "Queijo ou Bauru",
     "price": 13.00,
     "category": "salgado",
-    "image_url": "https://plus.unsplash.com/premium_photo-1738802843588-e1e4e5010681?w=800&q=80",
-    "highlight": false,
+    "image_url": "/pao-recheado.jpg",
+    "highlight": true,
     "position": 70
   },
   {
@@ -276,7 +276,7 @@
     "price": 28.00,
     "category": "salgado",
     "image_url": "https://plus.unsplash.com/premium_photo-1692728813531-3c63c066e04c?w=800&q=80",
-    "highlight": true,
+    "highlight": false,
     "position": 90
   },
   {
@@ -285,9 +285,9 @@
     "description": "Presunto fresco artesanal, tomate cereja confitado, requeijão com stracciatella e queijo de búfala.",
     "price": 31.00,
     "category": "salgado",
-    "image_url": "https://plus.unsplash.com/premium_photo-1692728813531-3c63c066e04c?w=800&q=80",
+    "image_url": "/croasaint-proti.jpg",
     "highlight": true,
-    "position": 100
+    "position": 15
   },
   {
     "id": "toast-chapa",
@@ -305,7 +305,7 @@
     "description": "Uma fatia do nosso delicioso pão de fermentação natural com ovos cremosos e bacon artesanal.",
     "price": 22.00,
     "category": "salgado",
-    "image_url": "https://images.unsplash.com/photo-1525351326368-efbb5cb6814d?w=800&q=80",
+    "image_url": "/IMG_2134.jpeg",
     "highlight": false,
     "position": 120
   },
@@ -316,7 +316,7 @@
     "price": 25.00,
     "category": "salgado",
     "image_url": "https://images.unsplash.com/photo-1761027101409-fa96d88349c7?w=800&q=80",
-    "highlight": true,
+    "highlight": false,
     "position": 130
   },
   {
@@ -325,7 +325,7 @@
     "description": "Fatia de bolo com sabor de casa de vó. Consulte o sabor do dia.",
     "price": 10.00,
     "category": "doce",
-    "image_url": "https://images.unsplash.com/photo-1572897305697-f8adb93dae8f?w=800&q=80",
+    "image_url": "/IMG_5930.png",
     "highlight": false,
     "position": 10
   },
@@ -335,7 +335,7 @@
     "description": "Bolo com recheio e confeitado. Consulte o sabor do dia.",
     "price": 18.00,
     "category": "doce",
-    "image_url": "https://images.unsplash.com/photo-1572897305697-f8adb93dae8f?w=800&q=80",
+    "image_url": "/IMG_6343.png",
     "highlight": false,
     "position": 20
   },
@@ -345,7 +345,7 @@
     "description": "Bolo de chocolate com massa dark e com um recheio generoso de brigadeiro feito com o verdadeiro chocolate belga Callebaut. Consulte disponibilidade.",
     "price": 25.00,
     "category": "doce",
-    "image_url": "https://images.unsplash.com/photo-1517427294546-5aa121f68e8a?w=800&q=80",
+    "image_url": "/IMG_5547.png",
     "highlight": true,
     "position": 30
   },
@@ -355,9 +355,9 @@
     "description": "Bolo que é a cara da Crema, com sabor irresistível.",
     "price": 15.00,
     "category": "doce",
-    "image_url": "https://images.unsplash.com/photo-1572897305697-f8adb93dae8f?w=800&q=80",
+    "image_url": "/maca-nozes.jpg",
     "highlight": true,
-    "position": 40
+    "position": 20
   },
   {
     "id": "cheesecake-frutas-vermelhas",
@@ -365,7 +365,7 @@
     "description": "A famosa cheesecake da Crema. Creme de queijo com uma deliciosa base e calda natural de frutas vermelhas.",
     "price": 18.00,
     "category": "doce",
-    "image_url": "https://images.unsplash.com/photo-1578775887804-699de7086ff9?w=800&q=80",
+    "image_url": "/1.png",
     "highlight": true,
     "position": 50
   },
@@ -386,6 +386,16 @@
     "price": 11.00,
     "category": "doce",
     "image_url": "https://images.unsplash.com/photo-1566855833528-35bcc17ae9ce?w=800&q=80",
+    "highlight": true,
+    "position": 70
+  },
+  {
+    "id": "banoffe",
+    "name": "Banoffe",
+    "description": "Base delicada, banana no ponto certo, doce de leite cremoso e o toque especial que faz toda a diferença: Nata fresca batida na hora, leve, suave e simplesmente irresistível.",
+    "price": 18.00,
+    "category": "doce",
+    "image_url": "/IMG_5777.png",
     "highlight": true,
     "position": 70
   }

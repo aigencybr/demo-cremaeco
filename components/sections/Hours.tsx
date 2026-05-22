@@ -9,14 +9,10 @@ export function Hours() {
   return (
     <section className="bg-brand-espresso py-20 px-6">
       <div className="max-w-2xl mx-auto text-center">
-        <span className="font-body text-xs tracking-widest uppercase text-brand-gold block mb-3">
-          Quando nos encontrar
-        </span>
 
-        <h2 className="font-display text-3xl md:text-4xl text-brand-cream leading-tight">
-          Nossos
-          <br />
-          Horários
+
+        <h2 className="font-[--font-lamoric]  text-3xl md:text-5xl text-brand-cream leading-tight">
+          Nossos Horários
         </h2>
 
         <div className="w-10 h-px bg-brand-gold mx-auto mt-4 mb-10" />
@@ -28,7 +24,7 @@ export function Hours() {
               <p className="font-body text-xs tracking-widest uppercase text-brand-gold mb-2">
                 {entry.days}
               </p>
-              <p className="font-display text-2xl md:text-3xl text-brand-cream">
+              <p className="font-black text-xl md:text-2xl text-brand-cream">
                 {entry.open}
                 <span className="font-body text-xs text-brand-stone/60 mx-1">
                   às
