@@ -8,7 +8,7 @@ export function Hero() {
         muted
         loop
         playsInline
-        className="absolute inset-0 w-full h-full object-cover object-center"
+        className="absolute inset-0 w-full h-full object-cover object-[60%_center] sm:object-center"
       />
 
       {/* Base black overlay */}

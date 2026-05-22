@@ -1,4 +1,13 @@
-import { ImageWithBlur } from '@/components/ui/ImageWithBlur'
+import { Carousel } from '@/components/ui/Carousel'
+
+const ABOUT_SLIDES = [
+  { src: '/photo.jpg', alt: 'Ambiente interno da Crema & Co. Café' },
+  { src: '/@naves_calebe-1.jpg', alt: 'Espaço da Crema & Co.' },
+  { src: '/@naves_calebe-10.jpg', alt: 'Detalhes do café Crema & Co.' },
+  { src: '/@naves_calebe-13.jpg', alt: 'Grãos selecionados da Crema & Co.' },
+  { src: '/@naves_calebe-2.jpg.jpeg', alt: 'Espaço aconchegante da Crema & Co.' },
+  { src: '/Foto 2.jpg.jpeg', alt: 'Momentos na Crema & Co.' },
+]
 
 export function About() {
   return (
@@ -24,12 +33,10 @@ export function About() {
           </p>
         </div>
 
-        <div className="relative aspect-[4/5] md:aspect-[3/4] bg-brand-linen overflow-hidden">
-          <ImageWithBlur
-            src="/photo.jpg"
-            alt="Ambiente interno da Crema & Co. Café"
-            fill
-            className="object-cover"
+        <div className="relative aspect-[4/5] md:aspect-[3/4] bg-brand-linen overflow-hidden rounded-2xl">
+          <Carousel
+            slides={ABOUT_SLIDES}
+            autoPlayInterval={2500}
             sizes="(max-width: 768px) 100vw, 50vw"
           />
         </div>

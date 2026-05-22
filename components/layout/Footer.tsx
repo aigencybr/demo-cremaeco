@@ -5,6 +5,7 @@ export function Footer() {
   return (
     <footer className="bg-brand-espresso py-12 px-6">
       <div className="max-w-4xl mx-auto flex flex-col items-center gap-6 text-center">
+
         {/* Logo */}
         <div>
           <Image
