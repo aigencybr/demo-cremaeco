@@ -43,16 +43,6 @@ export function Footer() {
           >
             Instagram
           </a>
-          <span className="text-brand-gold text-xs">·</span>
-          <a
-            href={`https://wa.me/${process.env.NEXT_PUBLIC_WHATSAPP_NUMBER ?? ''}`}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="font-body text-xs tracking-widest uppercase text-brand-stone hover:text-brand-gold transition-colors"
-            aria-label="WhatsApp da Crema & Co."
-          >
-            WhatsApp
-          </a>
         </div>
 
         {/* Credits */}

@@ -17,13 +17,13 @@ export function Header() {
   return (
     <header
       className="fixed left-0 right-0 top-0 z-50 flex justify-center"
-      style={{ padding: '20px 24px 0', pointerEvents: 'none' }}
+      style={{ padding: '16px 24px 0', pointerEvents: 'none' }}
     >
       <div
         className="header-pill flex w-full items-center justify-between gap-6"
         style={{
           maxWidth: '1200px',
-          padding: '14px 28px',
+          padding: '9px 24px',
           backdropFilter: 'blur(16px) saturate(180%)',
           WebkitBackdropFilter: 'blur(16px) saturate(180%)',
           pointerEvents: 'auto',
@@ -36,8 +36,8 @@ export function Header() {
             alt="Crema & Co. Café"
             height={72}
             width={240}
-            style={{ width: 'auto', height: '44px' }}
-            className="md:!h-[64px]"
+            style={{ width: 'auto', height: '36px' }}
+            className="md:!h-[48px]"
             priority
           />
         </Link>

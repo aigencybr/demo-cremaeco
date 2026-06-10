@@ -4,6 +4,7 @@ import { useState, useMemo } from 'react'
 import type { MenuItem, Category } from '@/types'
 import { CategoryTabs } from '@/components/ui/CategoryTabs'
 import { MenuCard } from '@/components/ui/MenuCard'
+import { ProductModal } from '@/components/ui/ProductModal'
 
 interface MenuPageClientProps {
   initialItems: MenuItem[]
@@ -13,6 +14,7 @@ const DRINK_CATEGORIES: (Category | 'todos')[] = ['quente', 'gelado', 'bebida']
 
 export function MenuPageClient({ initialItems }: MenuPageClientProps) {
   const [activeCategory, setActiveCategory] = useState<Category | 'todos'>('todos')
+  const [selectedItem, setSelectedItem] = useState<MenuItem | null>(null)
 
   const filtered = useMemo(() => {
     if (activeCategory === 'todos') return initialItems
@@ -39,11 +41,15 @@ export function MenuPageClient({ initialItems }: MenuPageClientProps) {
         ) : (
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-px mt-px">
             {filtered.map((item) => (
-              <MenuCard key={item.id} item={item} variant="full" />
+              <MenuCard key={item.id} item={item} variant="full" onClick={() => setSelectedItem(item)} />
             ))}
           </div>
         )}
       </div>
+
+      {selectedItem && (
+        <ProductModal item={selectedItem} onClose={() => setSelectedItem(null)} />
+      )}
 
       {showDrinkNote && (
         <p className="font-body text-xs text-brand-stone text-center mt-8 tracking-wide">

@@ -5,7 +5,7 @@
     "description": "Espresso 30ml",
     "price": 7.00,
     "category": "quente",
-    "image_url": "/espresso2.png",
+    "image_url": "/espresso.png",
     "highlight": false,
     "position": 10
   },
@@ -15,7 +15,7 @@
     "description": "Espresso 60ml",
     "price": 11.00,
     "category": "quente",
-    "image_url": "https://images.unsplash.com/photo-1559310391-aff67203586c?w=800&q=80",
+    "image_url": "/espresso2.png",
     "highlight": false,
     "position": 20
   },
@@ -25,7 +25,7 @@
     "description": "Espresso com \"manchinha\" de leite vaporizado",
     "price": 9.00,
     "category": "quente",
-    "image_url": "https://images.unsplash.com/photo-1754847419778-221460071b64?w=800&q=80",
+    "image_url": "/macchiato.png",
     "highlight": false,
     "position": 30
   },
@@ -35,7 +35,7 @@
     "description": "Espresso duplo com \"manchinha\" de leite vaporizado",
     "price": 13.00,
     "category": "quente",
-    "image_url": "https://images.unsplash.com/photo-1754847419778-221460071b64?w=800&q=80",
+    "image_url": "/macchiato.png",
     "highlight": false,
     "position": 40
   },
@@ -55,7 +55,7 @@
     "description": "Espresso com leite vaporizado",
     "price": 12.00,
     "category": "quente",
-    "image_url": "https://images.unsplash.com/photo-1426174840074-541ae41efdb9?w=800&q=80",
+    "image_url": "/latte-vaporizado.png",
     "highlight": false,
     "position": 60
   },
@@ -75,7 +75,7 @@
     "description": "Espresso com leite vaporizado, cacau em pó 50% e canela",
     "price": 14.00,
     "category": "quente",
-    "image_url": "https://images.unsplash.com/photo-1512568400610-62da28bc8a13?w=800&q=80",
+    "image_url": "/cappuccino.png",
     "highlight": false,
     "position": 80
   },
@@ -175,7 +175,7 @@
     "description": "Suco 100% integral sem adição de açúcar e conservante. Consultar sabores.",
     "price": 15.00,
     "category": "bebida",
-    "image_url": "https://images.unsplash.com/photo-1600271886742-f049cd451bba?w=800&q=80",
+    "image_url": "/suco-mitto.png",
     "highlight": false,
     "position": 20
   },
@@ -205,7 +205,7 @@
     "description": "Duas fatias do nosso delicioso pão brioche com recheio de presunto e queijo. Servido prensado e quente.",
     "price": 16.00,
     "category": "salgado",
-    "image_url": "https://images.unsplash.com/photo-1631707928780-153b053e09aa?w=800&q=80",
+    "image_url": "/tostex-misto.png",
     "highlight": false,
     "position": 20
   },
@@ -215,7 +215,7 @@
     "description": "Duas fatias do nosso delicioso pão de brioche com recheio de mussarela. Servido prensado e quente.",
     "price": 17.00,
     "category": "salgado",
-    "image_url": "https://images.unsplash.com/photo-1631707928780-153b053e09aa?w=800&q=80",
+    "image_url": "/tostex-queijo.png",
     "highlight": false,
     "position": 30
   },
@@ -275,7 +275,7 @@
     "description": "Croissant amanteigado, dourado por fora e macio por dentro, recheado com ovos cremosos preparados na medida certa.",
     "price": 28.00,
     "category": "salgado",
-    "image_url": "https://plus.unsplash.com/premium_photo-1692728813531-3c63c066e04c?w=800&q=80",
+    "image_url": "/croassaint.png",
     "highlight": false,
     "position": 90
   },
@@ -295,7 +295,7 @@
     "description": "Uma fatia do nosso delicioso pão de fermentação natural tostado na chama com manteiga.",
     "price": 12.00,
     "category": "salgado",
-    "image_url": "https://images.unsplash.com/photo-1525351326368-efbb5cb6814d?w=800&q=80",
+    "image_url": "/toast-chapa.png",
     "highlight": false,
     "position": 110
   },
@@ -375,7 +375,7 @@
     "description": "Brownie artesanal de chocolate intenso, com interior macio e úmido e casquinha delicadamente crocante por cima.",
     "price": 10.00,
     "category": "doce",
-    "image_url": "https://images.unsplash.com/photo-1461009312844-e80697a81cc7?w=800&q=80",
+    "image_url": "https://images.unsplash.com/photo-1566855833528-35bcc17ae9ce?w=800&q=80",
     "highlight": false,
     "position": 60
   },
@@ -385,7 +385,7 @@
     "description": "Brownie artesanal de chocolate intenso, macio por dentro, com nozes que trazem crocância e equilibram o sabor.",
     "price": 11.00,
     "category": "doce",
-    "image_url": "https://images.unsplash.com/photo-1566855833528-35bcc17ae9ce?w=800&q=80",
+    "image_url": "https://images.unsplash.com/photo-1461009312844-e80697a81cc7?w=800&q=80",
     "highlight": true,
     "position": 70
   },
