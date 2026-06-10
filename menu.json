@@ -175,7 +175,7 @@
     "description": "Suco 100% integral sem adição de açúcar e conservante. Consultar sabores.",
     "price": 15.00,
     "category": "bebida",
-    "image_url": null,
+    "image_url": "/suco-mitto.png",
     "highlight": false,
     "position": 20
   },

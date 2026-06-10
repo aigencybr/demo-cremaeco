@@ -5,6 +5,7 @@ import { formatPrice } from '@/lib/utils'
 interface MenuCardProps {
   item: MenuItem
   variant?: 'compact' | 'full'
+  onClick?: () => void
 }
 
 const CATEGORY_LABELS: Record<string, string> = {
@@ -15,11 +16,12 @@ const CATEGORY_LABELS: Record<string, string> = {
   bebida: 'Bebida',
 }
 
-export function MenuCard({ item, variant = 'full' }: MenuCardProps) {
+export function MenuCard({ item, variant = 'full', onClick }: MenuCardProps) {
   return (
     <article
       aria-label={item.name}
-      className="group bg-white overflow-hidden rounded-xl"
+      onClick={onClick}
+      className="group bg-white overflow-hidden rounded-xl cursor-pointer flex flex-col"
     >
       {/* Image */}
       <div
@@ -49,7 +51,7 @@ export function MenuCard({ item, variant = 'full' }: MenuCardProps) {
       </div>
 
       {/* Content */}
-      <div className="p-4">
+      <div className="p-4 flex flex-col flex-1">
         <h3 className="font-display text-xl md:text-2xl font-bold text-brand-espresso mb-1">
           {item.name}
         </h3>
@@ -58,7 +60,7 @@ export function MenuCard({ item, variant = 'full' }: MenuCardProps) {
             {item.description}
           </p>
         )}
-        <p className="font-black text-lg text-brand-copper">
+        <p className="font-black text-lg text-brand-copper mt-auto pt-2">
           {formatPrice(item.price)}
         </p>
       </div>

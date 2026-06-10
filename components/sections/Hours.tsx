@@ -20,11 +20,11 @@ export function Hours() {
         {/* Hours grid */}
         <div className="grid grid-cols-2 divide-x divide-brand-gold/40">
           {HOURS_DATA.map((entry) => (
-            <div key={entry.days} className="px-8 py-4">
-              <p className="font-body text-xs tracking-widest uppercase text-brand-gold mb-2">
+            <div key={entry.days} className="px-4 md:px-8 py-4">
+              <p className="font-body text-[10px] md:text-xs tracking-widest uppercase text-brand-gold mb-2">
                 {entry.days}
               </p>
-              <p className="font-black text-xl md:text-2xl text-brand-cream">
+              <p className="font-black text-lg md:text-2xl text-brand-cream">
                 {entry.open}
                 <span className="font-body text-xs text-brand-stone/60 mx-1">
                   às
