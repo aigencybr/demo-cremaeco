@@ -105,9 +105,19 @@
     "description": "Café coado com extração controlada que realça aromas e sabores, resultando em uma bebida limpa e equilibrada. 200ml — Chocolate | Frutado",
     "price": 12.00,
     "category": "quente",
-    "image_url": "https://images.unsplash.com/photo-1619109980753-cdf7d43068c1?w=800&q=80",
+    "image_url": "/coado-v60.png",
     "highlight": false,
     "position": 110
+  },
+  {
+    "id": "prensa-francesa",
+    "name": "Prensa Francesa",
+    "description": "Café preparado por imersão completa, resultando em uma bebida encorpada e rica em aromas. 280ml",
+    "price": 14.00,
+    "category": "quente",
+    "image_url": "/prensa-francesa.png",
+    "highlight": false,
+    "position": 85
   },
   {
     "id": "iced-crema",
@@ -135,7 +145,7 @@
     "description": "Espresso com leite, xarope 1883 de baunilha e gelo. 400ml",
     "price": 16.00,
     "category": "gelado",
-    "image_url": "/latte-vanilla.png",
+    "image_url": "/IMG_5550.png",
     "highlight": false,
     "position": 30
   },
@@ -313,9 +323,9 @@
     "id": "toast-caprese",
     "name": "Toast Caprese",
     "description": "Uma fatia do nosso delicioso pão de fermentação natural com molho pesto, tomate cereja confitado, queijo de búfala e manjericão.",
-    "price": 25.00,
+    "price": 28.00,
     "category": "salgado",
-    "image_url": "https://images.unsplash.com/photo-1761027101409-fa96d88349c7?w=800&q=80",
+    "image_url": "/toast-caprese.jpg",
     "highlight": false,
     "position": 130
   },
