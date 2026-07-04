@@ -2,7 +2,12 @@
   "permissions": {
     "allow": [
       "Bash(git add *)",
-      "Bash(git commit -m ' *)"
+      "Bash(git commit -m ' *)",
+      "Bash(mv \"/Users/larabrasil/Documents/Projetos/demo-cremaeco/public/toast parma & brie.png\" \"/Users/larabrasil/Documents/Projetos/demo-cremaeco/public/toast-parma-brie.png\")",
+      "Bash(open http://localhost:3000)"
+    ],
+    "additionalDirectories": [
+      "/Users/larabrasil/Documents/Projetos/demo-cremaeco/public"
     ]
   }
 }
