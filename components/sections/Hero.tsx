@@ -1,8 +1,22 @@
+'use client'
+
+import { useEffect, useRef } from 'react'
+
 export function Hero() {
+  const videoRef = useRef<HTMLVideoElement>(null)
+
+  useEffect(() => {
+    const video = videoRef.current
+    if (!video) return
+    video.muted = true
+    video.play().catch(() => {})
+  }, [])
+
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Video background */}
       <video
+        ref={videoRef}
         src="/herovideo2.mp4"
         autoPlay
         muted
