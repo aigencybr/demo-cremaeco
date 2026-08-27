@@ -183,7 +183,7 @@
     "id": "agua",
     "name": "Água",
     "description": "Com ou sem gás",
-    "price": 5.00,
+    "price": 6.00,
     "category": "bebida",
     "image_url": "/agua.png",
     "highlight": false,
@@ -428,5 +428,35 @@
     "image_url": "/IMG_5777.png",
     "highlight": true,
     "position": 70
+  },
+  {
+    "id": "cookie-tradicional",
+    "name": "Cookie Tradicional",
+    "description": "Cookie amanteigado, crocante por fora e macio por dentro, com gotas generosas de chocolate meio amargo",
+    "price": 17.90,
+    "category": "doce",
+    "image_url": "/cookie-tradicional.jpg",
+    "highlight": true,
+    "position": 25
+  },
+  {
+    "id": "cookie-red-velvet",
+    "name": "Cookie Red Velvet",
+    "description": "Cookie de massa aveludada de cacau, macio por dentro, com gotas de chocolate branco derretendo em cada mordida",
+    "price": 17.90,
+    "category": "doce",
+    "image_url": "/cookie-red-velvet.jpg",
+    "highlight": true,
+    "position": 45
+  },
+  {
+    "id": "cookie-chocotella",
+    "name": "Cookie Chocotella",
+    "description": "Cookie de chocolate crocante por fora, recheado com generosa camada de Nutella derretendo por dentro",
+    "price": 21.90,
+    "category": "doce",
+    "image_url": "/cookie-chocotella.jpg",
+    "highlight": true,
+    "position": 65
   }
 ]
