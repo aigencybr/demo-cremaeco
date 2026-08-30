@@ -19,17 +19,28 @@ const montserrat = Montserrat({
   display: 'swap',
 })
 
+const title = 'Crema & Co. Café — Caçapava, SP'
+const description =
+  'Cafeteria premium em Caçapava-SP. Espressos artesanais, iced lattes, doces e um espaço para respirar com calma.'
+
 export const metadata: Metadata = {
+  metadataBase: new URL('https://cremacafeteria.com'),
   title: {
-    default: 'Crema & Co. Café — Caçapava, SP',
+    default: title,
     template: '%s | Crema & Co. Café',
   },
-  description:
-    'Cafeteria premium em Caçapava-SP. Espressos artesanais, iced lattes, doces e um espaço para respirar com calma.',
+  description,
   openGraph: {
+    title,
+    description,
     type: 'website',
     locale: 'pt_BR',
     siteName: 'Crema & Co. Café',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title,
+    description,
   },
 }
 
