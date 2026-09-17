@@ -70,16 +70,6 @@
     "position": 75
   },
   {
-    "id": "velvet-milk",
-    "name": "Velvet Milk",
-    "description": "Espresso com três leites vaporizados — leite, leite de coco e leite condensado",
-    "price": 17.00,
-    "category": "quente",
-    "image_url": "/velvet-milk.png",
-    "highlight": true,
-    "position": 77
-  },
-  {
     "id": "cappuccino",
     "name": "Cappuccino",
     "description": "Espresso com leite vaporizado, cacau em pó 50% e canela",
